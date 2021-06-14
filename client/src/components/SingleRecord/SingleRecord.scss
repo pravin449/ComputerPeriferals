@@ -1,0 +1,77 @@
+.single-record {
+    display: inline-table;
+    min-height: 350px;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 0 rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+
+    .image-section {
+        display: flex;
+        height: 280px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .single-record-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .record-title, 
+    .record-price {
+        text-align: left;
+    }
+
+    .record-in-stock {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background-color: turquoise;
+        border-radius: 50%;
+        font-size: small;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        right: 2%;
+        top: 2%;
+    }
+
+    .record-add {
+        position: absolute;
+        font-size: small;
+        left: 2%;
+        top: 2%;
+
+        button {
+            font-size: x-small;
+            border-radius: 10px;
+        }
+    }
+
+    .record-link-section {
+        position: relative;
+        margin-bottom: 10%;
+        color: #fff;
+        background-color: #343a40;
+        border-color: #343a40;
+        .record-link {
+            padding: 5px;
+            color: #fff;
+            background-color: #343a40;
+            border-color: #343a40;
+            text-align: left;
+            left: 0;
+            position: absolute;
+        }
+    }
+}
+
+.single-record:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+

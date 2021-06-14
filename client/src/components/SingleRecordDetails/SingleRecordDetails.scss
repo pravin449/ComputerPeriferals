@@ -1,0 +1,61 @@
+.single-record-details {
+    margin: 0;
+    text-align: left;
+    
+    .single-record-image-section {
+
+        .single-record-image {
+            width: 100%;
+            height: auto;
+            border: 1px lightgray solid;
+            padding: 10px;
+        }
+    }
+    .record-product-type {
+        color: gray;
+        font-size: medium;
+        margin-bottom: 5px;
+    }
+
+    .record-product-title {
+        color: black;
+        font-weight: bold;
+        font-size: large;
+        margin-bottom: 5px;
+    }
+
+    .record-product-description {
+        color: gray;
+        font-size: medium;
+        margin-bottom: 5px;
+    }
+
+    .record-product-price {
+        color: green;
+        font-weight: bold;
+        font-size: x-large;
+        margin-bottom: 5px;
+    }
+
+    .salePriceActive {
+        color:red;
+        text-decoration: line-through;
+    }
+
+    .record-product-sale-price {
+        color: green;
+        font-weight: bold;
+        font-size: x-large;
+        margin-bottom: 5px;
+    }
+
+    .record-product-add {
+        display: flex;
+
+        .record-product-add-number{
+            width: 40px;
+            height: auto;
+            margin-right: 10px;
+        }
+    }
+}

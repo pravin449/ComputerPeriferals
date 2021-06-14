@@ -1,0 +1,52 @@
+.multiple-records{
+    padding: auto;
+    margin: 0 5%;
+    border-top : 1px black solid;
+    padding-top: 10px;
+    min-height: 50vh;
+    min-width: 90%;
+
+    .multiple-records-row{
+        margin-bottom: 10px;
+    }
+}
+
+.pagination{
+    margin: 10px;
+}
+
+.record-page {
+    display: block;
+    margin: 10px;
+}
+
+.sorting-section {
+    display: block;
+    width: 100%;
+    margin-left: 5%;
+    padding: 10px 0;
+    text-align: left;
+    
+    button {
+        margin: 0 10px;
+        background: transparent !important;
+        border: none !important;
+    }
+
+    .active {
+        color: black;
+        font-weight: bold;
+        border-color: transparent !important;
+    }
+
+    span {
+        font-weight: bold;
+    }
+}
+
+.dis-mid {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 40vh;
+}
