@@ -3,11 +3,15 @@
     text-align: left;
     
     .single-record-image-section {
+        border: 1px solid blanchedalmond;
+        border-radius: 50%;
+        background-color: blanchedalmond;
+        // margin-left: 2px;
+        transform: perspective(200px) translateZ(-50px);
 
         .single-record-image {
             width: 100%;
             height: auto;
-            border: 1px lightgray solid;
             padding: 10px;
         }
     }
